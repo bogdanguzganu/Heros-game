@@ -1,0 +1,114 @@
+body {
+    background-image: url('img/wall.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.titlu {
+  text-align: center;
+}
+
+.intro {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #000066;
+  font-size: 40px;
+  padding-top: 150px;
+}
+
+.buton-container {
+  margin: 50px auto 0;
+  
+  
+}
+
+.hero-container {
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.hero-img {
+  
+  
+  padding: 10px;
+  padding-bottom: 10px;   
+}
+
+.hero-details{
+font-family: "Times New Roman", Times, serif;
+font-size: 30px;
+color: #000066;
+}
+
+.choose {
+  margin: 1rem auto;
+  width: 100%;
+  font-size: 18px;
+  color: orangered;
+  background-color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 30px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+#showheros {
+  text-align: center;
+  background-image: linear-gradient(#000066, rgba(60, 60, 60, 0.62));
+  padding: 10px 20px;
+  color: orangered;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  margin: 10px auto;
+  box-shadow: 0px 0px 3px 3px rgb(255,69,0);
+  
+}
+
+.btn {
+  text-align: center;
+  background-image: linear-gradient(#000066, rgba(60, 60, 60, 0.62));
+  padding: 10px 20px;
+  color: orangered;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  box-shadow: 0px 0px 3px 3px rgb(255,69,0);
+}
+
+.fight-details {
+  width: 350px;
+  height: 115px;
+  background-color: rgb(255, 255, 255, 0.6);
+  display: none;
+  margin: 50px auto 0;
+  border-radius: 250px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+  color: rgb(255, 69, 0, 0.8);
+  padding-top: 10px;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
